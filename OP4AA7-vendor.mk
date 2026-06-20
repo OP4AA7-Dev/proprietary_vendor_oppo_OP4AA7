@@ -282,6 +282,24 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_rectify.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_bokeh_api.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_left.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_preview.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_right.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_right.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_couple_api.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_denoise_api.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_hdrplus_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdrplus_hvx_stub.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range_couple.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_lensstaindetection.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_portraitSN_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portraitSN_hvx_stub.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_super_night_raw.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_scbokeh_video.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_smart_denoise.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib64/libaudioEngineerTest.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
@@ -303,6 +321,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libsnpe_loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_loader.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libsnpeml.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpeml.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libstblur_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstblur_api.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libstblur_capture_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstblur_capture_api.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libstdc++.so:$(TARGET_COPY_OUT_ODM)/lib64/libstdc++.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libstface_fd_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstface_fd_api.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib64/libswresample.so \
@@ -844,6 +864,49 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4AA7/proprietary/vendor/lib/libwfduibcsrc_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsrc_proprietary.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib/libwfduibcsrcinterface_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsrcinterface_proprietary.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib/libwfdutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdutils_proprietary.so \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_adsp_loader.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_ak4376.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_ak4376.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_apr.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_bolero_cdc.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_dspg_dbmdx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_dspg_dbmdx.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_hdmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_hdmi.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_machine_talos.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_machine_talos.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_mbhc.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_native.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_pinctrl_lpi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_pinctrl_lpi.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_pinctrl_wcd.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_pinctrl_wcd.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_platform.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6_notifier.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6_pdr.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_rx_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_rx_macro.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_snd_event.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_snd_event.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_stub.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_swr.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_swr_ctrl.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_tfa98xx-v6.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_tfa98xx-v6.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_tx_macro.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_usf.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_va_macro.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wcd934x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd934x.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wcd937x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd937x.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wcd937x_slave.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd937x_slave.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd9xxx.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd_core.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wcd_spi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd_spi.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wglink.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wglink.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wsa881x.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/audio_wsa_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wsa_macro.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/modules.load:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.load \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.softdep \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-adapter.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-dmx-hw-plugin.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/msm_11ad_proxy.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/msm_11ad_proxy.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko \
+    vendor/oppo/OP4AA7/proprietary/vendor/lib/modules/wil6210.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wil6210.ko \
     vendor/oppo/OP4AA7/proprietary/vendor/lib/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/oplus.sensors.ssc.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib/qcom.camera.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcom.camera.log.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so \
@@ -1077,24 +1140,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_bokeh_api.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_left.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_preview.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_right.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_right.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_couple_api.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_denoise_api.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_hdrplus_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdrplus_hvx_stub.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range_couple.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_lensstaindetection.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_portraitSN_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portraitSN_hvx_stub.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_super_night_raw.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_scbokeh_video.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_smart_denoise.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
@@ -1293,8 +1338,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssrec.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_qtiflacdec.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libstblur_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstblur_api.so \
-    vendor/oppo/OP4AA7/proprietary/vendor/lib64/libstblur_capture_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstblur_capture_api.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/oppo/OP4AA7/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
