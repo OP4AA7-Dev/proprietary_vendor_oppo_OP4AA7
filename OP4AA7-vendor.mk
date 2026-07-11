@@ -340,15 +340,15 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/oppo/OP4AA7/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b02 \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b03 \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b04 \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b05 \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b06 \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b07 \
-    vendor/oppo/OP4AA7/proprietary/odm/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.mdt \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.b00 \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.b01 \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.b02:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.b02 \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.b03:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.b03 \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.b04:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.b04 \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.b05:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.b05 \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.b06 \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.b07 \
+    vendor/oppo/OP4AA7/proprietary/odm/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/firmware/goodixfp.mdt \
     vendor/oppo/OP4AA7/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/oppo/OP4AA7/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/oppo/OP4AA7/proprietary/system_ext/bin/rtspclient:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtspclient \
